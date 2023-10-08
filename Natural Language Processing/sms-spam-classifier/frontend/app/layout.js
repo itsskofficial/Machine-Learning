@@ -1,8 +1,8 @@
 import '@styles/globals.css'
 
 export const metadata = {
-  title: 'SMS Spam Classifier',
-  description: 'Simple app to classify whether a text is spam or not',
+  title: 'SpamGuard',
+  description: 'Simple app to classify whether a text is spam or ham',
 }
 
 export default function RootLayout({ children }) {
