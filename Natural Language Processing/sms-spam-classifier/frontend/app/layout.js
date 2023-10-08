@@ -1,6 +1,4 @@
-import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import '@styles/globals.css'
 
 export const metadata = {
   title: 'SMS Spam Classifier',
@@ -10,7 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="wrapper">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

@@ -19,11 +19,13 @@ const Home = () => {
     setSubmit(true)
 
     try {
-      const response = await fetch("/predict", {
+      console.log(JSON.stringify({ text: text }))
+      const response = await fetch("http://localhost:5000/predict", {
         method: "POST",
-        body: {
+        mode: "cors",
+        body: JSON.stringify({
           text: text
-        },
+        }),
         headers: {
           "Content-Type": "application/json"
         }
@@ -45,22 +47,24 @@ const Home = () => {
     finally {
       setTimeout(() => {
         setSubmit(false)
-      }, 5000)
+        setError(null)
+        setResult(null)
+      }, 7000)
     }
   }
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex flex-col gap-[100px] items-center justify-center">
       <div className="flex items-center gap-[50px]">
-        <Image src="/logo.svg" width={0} height={0} className="width-[100px]" />
-        <h1 className="font-Montserrat font-semibold text-xlg text-white">
+        <Image src="/logo.svg" width={0} height={0} className="w-[100px]" alt="SpamGuard Logo" />
+        <h1 className="font-Montserrat font-semibold text-[50px] text-white">
           SpamGuard
         </h1>
       </div>
       <h2 className="font-Poppins font-medium text-lg text-white">
         Enter a text below to check if its spam or not
       </h2>
-      <input type="text" onChange={handleOnChange} className="bg-gray-800 p-[30px] font-Quicksand font-normal text-base text-white" /> 
+      <textarea type="text" onChange={handleOnChange} className="w-[75%] bg-gray-800 p-[30px] font-Quicksand font-normal text-base text-white" /> 
       {error !== null ? (
         <h3 className="font-Quicksand font-medium text-base text-white">
           {error}
@@ -71,7 +75,7 @@ const Home = () => {
         </h3>
         ) : (
         <button type="submit" onClick={handleSubmit} className="bg-[#] p-4 font-Quicksand font-medium text-base text-white">
-          {submit ? "Submit" : "Classifying..."}
+          {submit ? "Classifying..." : "Submit"}
         </button>
         )
       }
