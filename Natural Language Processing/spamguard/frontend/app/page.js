@@ -71,7 +71,7 @@ const Home = () => {
           {error}
         </h3> 
       ) : result !== null ? (
-        <h3 className="font-Quicksand font-medium lg:text-lg sm:text-base xs:text-sm text-white">
+        <h3 className="font-Quicksand font-medium lg:text-[25px] sm:text-[20px] xs:text-[15px] sm:text-base xs:text-sm text-white">
             This text is <span className={result === "spam" ? "text-[#ff0000]" : "text-[#00ff00]"}>{result}</span> 
         </h3>
         ) : (
