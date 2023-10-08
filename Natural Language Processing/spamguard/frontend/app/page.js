@@ -64,7 +64,7 @@ const Home = () => {
         Enter a text below to check if its spam or ham
       </h2>
       <div className="flex items-center justify-center h-[200px] lg:w-[75%] sm:w-[85%] xs:w-[95%] bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500 lg:p-2 sm:p-1.5 xs:p-1 rounded-[12px] ">
-        <textarea type="text" onChange={handleOnChange} className="h-full w-full bg-gray-800 rounded-[12px] lg:p-[20px] sm:p-[15px] xs:p-[10px] font-Quicksand font-normal lg:text-lg sm:text-base xs:text-sm text-white" placeholder="You have won $7000. Click on the link below to get the prize"/> 
+        <textarea name="text-input" type="text" onChange={handleOnChange} className="h-full w-full bg-gray-800 rounded-[12px] lg:p-[20px] sm:p-[15px] xs:p-[10px] font-Quicksand font-normal lg:text-lg sm:text-base xs:text-sm text-white" placeholder="You have won $7000. Click on the link below to get the prize"/> 
       </div>
       {error !== null ? (
         <h3 className="font-Quicksand font-medium text-base text-white">
