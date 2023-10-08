@@ -8,7 +8,7 @@ CORS(app, resource={r"/*" : {"origins" : "*"}})
 
 @app.route("/")
 def home():
-    return {"message": "This is the backend of SMS Spam Classifier made with Flask"}
+    return "This is the backend of SMS Spam Classifier made with Flask"
 
 @app.route("/predict", methods=["POST"])
 def predict():

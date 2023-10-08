@@ -39,6 +39,7 @@ def classify(text) :
   transformed_text = transform_text(text)
   vectorized_text = tfidf.transform([transformed_text])
   result = model.predict(vectorized_text)[0]
+  print(result)
   if result == 0 :
     return "ham"
   else :

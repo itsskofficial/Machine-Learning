@@ -19,7 +19,6 @@ const Home = () => {
     setSubmit(true)
 
     try {
-      console.log(JSON.stringify({ text: text }))
       const response = await fetch("http://localhost:5000/predict", {
         method: "POST",
         mode: "cors",
