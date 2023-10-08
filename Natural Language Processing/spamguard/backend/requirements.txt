@@ -1,5 +1,5 @@
-flask
-flask_cors
-gunicorn==19.7.1
-nltk==3.8.1
-scikit-learn
+Flask
+Flask_cors
+Gunicorn==19.7.1
+Nltk==3.8.1
+Scikit-learn
