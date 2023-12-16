@@ -1,2 +1,3 @@
-The projects are created by Jose Marcial Portilla with Pierian Data
+# Machine Learning
+A collection of machine learning projects, programs and papers
 
