@@ -1,0 +1,27 @@
+{
+  "name": "digrec",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.1.0",
+    "net": "^1.0.2",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-sketch": "^0.5.1",
+    "react-sketch-canvas": "^6.2.0",
+    "tls": "^0.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
