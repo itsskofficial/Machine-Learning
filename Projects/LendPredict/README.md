@@ -32,7 +32,7 @@
 
 ## About The Project
 
-![Screen Shot](lend-predict.png)
+![Screen Shot](lending-prediction.png)
 
 LendPredict is a machine learning project aimed at predicting loan repayment based on borrower features. Leveraging Python and popular libraries like Seaborn, Matplotlib, Numpy, Pandas, and Scikit Learn, the project utilizes a trained machine learning model to provide insights into whether a borrower is likely to pay back the loan.
 
