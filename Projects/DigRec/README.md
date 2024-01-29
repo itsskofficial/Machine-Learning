@@ -64,3 +64,63 @@ To get a local copy up and running follow these simple example steps.
   ```sh
   # To upgrade pip to the latest version, run:
   python -m pip install --upgrade pip
+
+## Installation
+
+### Flask Backend
+
+1. **Clone the repo**
+   ```sh
+   git clone https://github.com/itsskofficial/Machine-Learning.git
+
+2. **Enter into the Flask directory**
+   ```sh
+   cd Projects/DigRec/backend
+
+3. **Install libraries**
+   ```sh
+   pip install -r requirements.txt
+
+4. **Start the Flask server**
+   ```sh
+   python app.py
+
+### Next.js Frontend
+
+1. **Enter into the frontend directory**
+   ```sh
+   cd Projects/DigRec/frontend
+
+2. **Install the libraries**
+   ```sh
+   npm install
+
+3. **Start the Next.js client**
+   ```sh
+   npm run dev
+   
+## Usage
+
+DigRec is a user-friendly digit recognition tool that allows users to draw or input digits, and the machine learning model will recognize and classify the input. The Flask backend serves the machine learning model, while the Next.js frontend provides an intuitive interface for users to interact with the system.
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the repository a star! Thanks again!
+
+### Creating A Pull Request
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/itsskofficial/Machine-Learning/blob/main/LICENSE.md) for more information.
+
+## Acknowledgements
+
+* [NeuralNine](https://www.udemy.com/user/joseportilla/](https://www.neuralnine.com/)https://www.neuralnine.com/)
