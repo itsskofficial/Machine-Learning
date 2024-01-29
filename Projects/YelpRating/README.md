@@ -32,7 +32,7 @@
 
 ## About The Project
 
-![Screen Shot](yelp-rating.png)
+![Screen Shot](yelp-review.png)
 
 YelpRating is a machine learning project aimed at predicting Yelp ratings based on business features. Leveraging Python and popular libraries like Seaborn, Matplotlib, Numpy, Pandas, and Scikit Learn, the project utilizes a trained machine learning model to provide insights into the likely rating a business might receive on Yelp.
 
