@@ -37,8 +37,6 @@
 
 ## About The Project
 
-![Screen Shot](digit-recognition.png)
-
 DigRec is a digit recognition project utilizing machine learning, with a Flask backend for model serving and a Next.js frontend for user interaction. The project allows users to draw or input digits and employs a trained machine learning model to recognize and classify the input.
 
 ## Built With
