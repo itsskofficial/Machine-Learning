@@ -121,4 +121,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/itsskofficia
 
 ## Acknowledgements
 
-* [NeuralNine](https://www.udemy.com/user/joseportilla/](https://www.neuralnine.com/)https://www.neuralnine.com/)
+* [NeuralNine](https://www.neuralnine.com/)
