@@ -1,5 +1,4 @@
-Machine Learning Roadmap
----------------------------------
+# Machine Learning Roadmap
 
 ### 1\. **Prerequisites:**
 
